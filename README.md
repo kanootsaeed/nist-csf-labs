@@ -80,18 +80,21 @@ Each lab includes:
 
 ## 💬 Contributing & Feedback
 
-This repository is part of a personal journey to learn and demonstrate practical cybersecurity skills aligned with NIST CSF. If you have suggestions, lab ideas, or feedback — feel free to open an issue or fork the repo!
+This repository is part of my personal journey to learn and demonstrate hands-on cybersecurity skills aligned with the NIST Cybersecurity Framework (CSF) 2.0.  
+If you have suggestions, lab ideas, or feedback — feel free to [open an issue](https://github.com/yourusername/nist-csf-labs/issues) or fork the repo!
 
 ---
 
 ## 📅 Roadmap
 
-- [ ] 10 Labs Completed by [📆 Date Goal]
-- [ ] Publish to GitHub Pages for public viewing
-- [ ] Write blog-style breakdowns of 3 key labs
-- [ ] Convert risk register to interactive dashboard
+- [ ] ✅ Complete 10 Labs by **August 15, 2025**
+- [ ] 🌐 Publish lab site using **GitHub Pages**
+- [ ] 📝 Write blog-style breakdowns of 3 key labs
+- [ ] 📊 Convert risk register into an **interactive dashboard**
 
 ---
 
-> _"Security is a process, not a product."_ – Bruce Schneier
+> _"Security is a process, not a product."_  
+> — Bruce Schneier
+
 
