@@ -57,7 +57,7 @@ Welcome! This repository contains a collection of practical, hands-on cybersecur
 
 ### 🧱 Folder Structure 
   
-  ``` nist-csf-labs/ 
+   nist-csf-labs/ 
 ├── 01-Identify/
 │     └── asset-inventory-nmap/
 ├── 02-Protect/
