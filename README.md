@@ -56,4 +56,39 @@ Welcome! This repository contains a collection of practical, hands-on cybersecur
 ---
 
 ## 🧱 Folder Structure
+├── 01-Identify/
+│ └── asset-inventory-nmap/
+├── 02-Protect/
+├── 03-Detect/
+├── 04-Respond/
+├── 05-Recover/
+├── 06-Govern/
+├── 00-Templates/
+└── 07-Lab-Tracker.md
+
+
+Each lab includes:
+- 📄 A README with context, tools, and step-by-step instructions  
+- 📸 Screenshots of configuration or results  
+- 📁 Logs, configs, and outputs (when possible)  
+- ✅ CSF subcategory mapping and lessons learned
+
+---
+
+## 💬 Contributing & Feedback
+
+This repository is part of a personal journey to learn and demonstrate practical cybersecurity skills aligned with NIST CSF. If you have suggestions, lab ideas, or feedback — feel free to open an issue or fork the repo!
+
+---
+
+## 📅 Roadmap
+
+- [ ] 10 Labs Completed by [📆 Date Goal]
+- [ ] Publish to GitHub Pages for public viewing
+- [ ] Write blog-style breakdowns of 3 key labs
+- [ ] Convert risk register to interactive dashboard
+
+---
+
+> _"Security is a process, not a product."_ – Bruce Schneier
 
