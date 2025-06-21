@@ -66,7 +66,7 @@ Welcome! This repository contains a collection of practical, hands-on cybersecur
 ├── 05-Recover/
 ├── 06-Govern/
 ├── 00-Templates/
-└── 07-Lab-Tracker.md ``` 
+└── 07-Lab-Tracker.md  
 
 
 
