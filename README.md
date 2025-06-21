@@ -55,17 +55,7 @@ Welcome! This repository contains a collection of practical, hands-on cybersecur
 
 ---
 
-## 🧱 Folder Structure
-nist-csf-labs/
-├── 01-Identify/
-│   └── asset-inventory-nmap/
-├── 02-Protect/
-├── 03-Detect/
-├── 04-Respond/
-├── 05-Recover/
-├── 06-Govern/
-├── 00-Templates/
-└── 07-Lab-Tracker.md
+<pre> ### 🧱 Folder Structure ``` nist-csf-labs/ ├── 01-Identify/ │ └── asset-inventory-nmap/ ├── 02-Protect/ ├── 03-Detect/ ├── 04-Respond/ ├── 05-Recover/ ├── 06-Govern/ ├── 00-Templates/ └── 07-Lab-Tracker.md ``` </pre>
 
 
 
