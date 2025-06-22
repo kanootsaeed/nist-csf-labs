@@ -46,9 +46,9 @@ Run the following command in your terminal:
 ```sudo nmap -sP 192.168.1.0/24```
 
 #### 🔎 Explanation:
-sudo – Runs the command with administrative privileges (required for certain network scans)
-nmap – The network scanner tool
--sP – Performs a "ping scan" to see which hosts respond; this is a quick way to find active devices
+- sudo – Runs the command with administrative privileges (required for certain network scans)
+- nmap – The network scanner tool
+- -sP – Performs a "ping scan" to see which hosts respond; this is a quick way to find active devices
 
 192.168.1.0/24 – The subnet you're scanning (replace with your actual subnet if different)
 
