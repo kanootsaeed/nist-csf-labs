@@ -68,31 +68,24 @@ Now that you’ve discovered which devices are online, the next step is to learn
 
 Run the following command:
 
-bash
-Copy
-Edit
+```
 sudo nmap -sV -O -T4 192.168.1.0/24
+```
+
 🔎 Explanation:
 sudo – Runs with admin permissions (some scans require root access)
-
 -sV – Enables service version detection (e.g., Apache 2.4.41, OpenSSH 8.0)
-
 -O – Tries to detect the operating system (e.g., Windows 10, Linux, etc.)
-
 -T4 – Speeds up the scan (without being too aggressive)
 
 📌 Why This Matters (NIST CSF Tie-In):
 This deeper level of scanning supports:
 
-ID.AM-2 – You are identifying software platforms in use across your devices
-
-You can detect unauthorized or unexpected services, like:
-
-A telnet server (insecure)
-
-An unknown web server
-
-An open database exposed to the network
+-ID.AM-2 – You are identifying software platforms in use across your devices
+-You can detect unauthorized or unexpected services, like:
+  -A telnet server (insecure)
+  -An unknown web server
+  -An open database exposed to the network
 
 ### 4. 💾 Save and Export Scan Results (Optional but Recommended)
 
@@ -100,16 +93,15 @@ To keep a record of your scan for reporting, future reference, or importing into
 
 Run the command below to save your scan in **XML format**:
 
-```bash
+```
 sudo nmap -sV -O 192.168.1.0/24 -oX scan-results.xml
+```
 
 📌 Why This Matters (NIST CSF Tie-In)
 Saving and reviewing the results supports the ongoing process of:
+-Building a repeatable asset inventory process (ID.AM-1, ID.AM-2)
+-Supporting future risk assessments (ID.RA)
+- Showing a practical, well-documented approach to asset management
 
-Building a repeatable asset inventory process (ID.AM-1, ID.AM-2)
-
-Supporting future risk assessments (ID.RA)
-
-Showing a practical, well-documented approach to asset management
-“Without documentation, discoveries disappear. Export your findings.”
+#### “Without documentation, discoveries disappear. Export your findings.”
 
