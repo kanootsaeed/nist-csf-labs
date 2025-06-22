@@ -52,9 +52,8 @@ Run the following command in your terminal:
 
 192.168.1.0/24 – The subnet you're scanning (replace with your actual subnet if different)
 
-✅ What You’ll See:
+#### ✅ What You’ll See:
 Nmap will return a list of IP addresses with lines like:
-
 
 ```Nmap scan report for 192.168.1.1  
 Host is up (0.0030s latency).  
