@@ -29,8 +29,8 @@ This lab demonstrates how to use **Nmap** to identify assets and services on a l
 
 Run:
 
-```bash
-ip a
+bash
+ip a 
 
 
 2. 🔍 Discover Active Devices (Ping Scan)
