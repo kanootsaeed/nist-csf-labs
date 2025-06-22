@@ -74,19 +74,19 @@ sudo nmap -sV -O -T4 192.168.1.0/24
 
 🔎 Explanation:
 
-*sudo – Runs with admin permissions (some scans require root access)
-*sV – Enables service version detection (e.g., Apache 2.4.41, OpenSSH 8.0)
-*O – Tries to detect the operating system (e.g., Windows 10, Linux, etc.)
-*T4 – Speeds up the scan (without being too aggressive)
+- sudo – Runs with admin permissions (some scans require root access)
+- sV – Enables service version detection (e.g., Apache 2.4.41, OpenSSH 8.0)
+- O – Tries to detect the operating system (e.g., Windows 10, Linux, etc.)
+- T4 – Speeds up the scan (without being too aggressive)
 
 📌 Why This Matters (NIST CSF Tie-In):
 This deeper level of scanning supports:
 
--ID.AM-2 – You are identifying software platforms in use across your devices
--You can detect unauthorized or unexpected services, like:
-  -A telnet server (insecure)
-  -An unknown web server
-  -An open database exposed to the network
+- **ID.AM-2** – You are identifying software platforms in use across your devices
+- You can detect unauthorized or unexpected services, like:
+  - A telnet server (insecure)
+  - An unknown web server
+  - An open database exposed to the network
 
 ### 4. 💾 Save and Export Scan Results (Optional but Recommended)
 
