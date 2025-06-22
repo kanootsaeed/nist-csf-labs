@@ -38,20 +38,16 @@ inet 192.168.1.14/24 → This means your subnet is 192.168.1.0/24
 
 
 
-2. 🔍 Discover Active Devices (Ping Scan)
+### 2. 🔍 Discover Active Devices (Ping Scan)
 Once you know your subnet (e.g., 192.168.1.0/24), the next step is to scan your network to find all live (online) devices.
 
 Run the following command in your terminal:
 
-bash
-Copy
-Edit
-sudo nmap -sP 192.168.1.0/24
+```sudo nmap -sP 192.168.1.0/24```
+
 🔎 Explanation:
 sudo – Runs the command with administrative privileges (required for certain network scans)
-
 nmap – The network scanner tool
-
 -sP – Performs a "ping scan" to see which hosts respond; this is a quick way to find active devices
 
 192.168.1.0/24 – The subnet you're scanning (replace with your actual subnet if different)
@@ -59,12 +55,11 @@ nmap – The network scanner tool
 ✅ What You’ll See:
 Nmap will return a list of IP addresses with lines like:
 
-ruby
-Copy
-Edit
-Nmap scan report for 192.168.1.1  
+
+```Nmap scan report for 192.168.1.1  
 Host is up (0.0030s latency).  
-MAC Address: AA:BB:CC:DD:EE:FF (Vendor)  
+MAC Address: AA:BB:CC:DD:EE:FF```
+ 
 Each of these indicates a live device. You’re now starting your asset inventory — which is the goal of this lab and aligns with CSF subcategory ID.AM-1.
 
 3. 📦 Perform a Service and Port Scan (Deeper Asset Info)
