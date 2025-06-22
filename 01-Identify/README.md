@@ -55,13 +55,13 @@ Run the following command in your terminal:
 #### ✅ What You’ll See:
 Nmap will return a list of IP addresses with lines like:
 
-```Nmap scan report for 192.168.1.1  
+Nmap scan report for 192.168.1.1  
 Host is up (0.0030s latency).  
-MAC Address: AA:BB:CC:DD:EE:FF```
+MAC Address: AA:BB:CC:DD:EE:FF
  
 Each of these indicates a live device. You’re now starting your asset inventory — which is the goal of this lab and aligns with CSF subcategory ID.AM-1.
 
-3. 📦 Perform a Service and Port Scan (Deeper Asset Info)
+### 3. 📦 Perform a Service and Port Scan (Deeper Asset Info)
 Now that you’ve discovered which devices are online, the next step is to learn what software/services those devices are running.
 
 Run the following command:
