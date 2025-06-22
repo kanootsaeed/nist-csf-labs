@@ -29,8 +29,13 @@ This lab demonstrates how to use **Nmap** to identify assets and services on a l
 
 Run:
 
-bash
-ip a 
+```bash
+ip a
+Look for something like:
+inet 192.168.1.14/24 → This means your subnet is 192.168.1.0/24
+```
+
+
 
 
 2. 🔍 Discover Active Devices (Ping Scan)
