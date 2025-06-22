@@ -100,8 +100,8 @@ sudo nmap -sV -O 192.168.1.0/24 -oX scan-results.xml
 
 📌 Why This Matters (NIST CSF Tie-In)
 Saving and reviewing the results supports the ongoing process of:
--Building a repeatable asset inventory process (ID.AM-1, ID.AM-2)
--Supporting future risk assessments (ID.RA)
+- Building a repeatable asset inventory process (ID.AM-1, ID.AM-2)
+- Supporting future risk assessments (ID.RA)
 - Showing a practical, well-documented approach to asset management
 
 #### “Without documentation, discoveries disappear. Export your findings.”
