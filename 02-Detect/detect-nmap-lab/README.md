@@ -33,7 +33,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ifconfig | grep inet
 ```
 📸 See Screenshot 1: Shows the local IP address 10.0.0.22
-![Host Discovery](.nmap-host-discovery.png)
+![Host Discovery](nmap-host-discovery.png)
 
 ### ✅ 3. Discover Active Hosts on Network
 ```
