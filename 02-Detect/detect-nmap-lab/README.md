@@ -18,13 +18,16 @@ To demonstrate how to use `nmap` for:
 ## 🧪 Lab Steps
 
 ### ✅ 1. Install Homebrew and Nmap
-```bash
+```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+```
 brew install nmap
 ```
 If brew isn't recognized, run:
+```
 eval "$(/opt/homebrew/bin/brew shellenv)"
-
+```
 ### ✅ 2. Identify Local IP Address
 ```
 ifconfig | grep inet
@@ -47,6 +50,6 @@ nmap -sV -T4 10.0.0.0/24
 - Open ports and services identified on active devices
 - Practical understanding of how detection tools can inform threat monitoring
 
-####🧠 NIST CSF Alignment
+#### 🧠 NIST CSF Alignment
 - Detect	Anomalies & Events	DE.AE-1: A baseline of network operations is established
 - Detect	Security Monitoring	DE.CM-1: The network is monitored to detect potential cybersecurity events
