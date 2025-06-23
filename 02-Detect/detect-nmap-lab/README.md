@@ -33,6 +33,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ifconfig | grep inet
 ```
 📸 See Screenshot 1: Shows the local IP address 10.0.0.22
+
 ![Host Discovery](nmap-host-discovery.png)
 
 ### ✅ 3. Discover Active Hosts on Network
@@ -41,10 +42,14 @@ nmap -sn 10.0.0.0/24
 ```
 📸 See Screenshot 2: Displays a list of live hosts
 
+![Host Discovery](nmap-scan-results.png)
+
 ### ✅ 4. Detect Open Ports and Services
 ```
 nmap -sV -T4 10.0.0.0/24
 ```
+📸 See Screenshot 3: Displays open ports and identified services
+![Host Discovery](nmap-port-scan.png)
 
 #### ✅ Outcome
 - 12 hosts detected
