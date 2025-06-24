@@ -46,7 +46,7 @@ Once you know your subnet (e.g., 192.168.1.0/24), the next step is to scan your 
 
 Run the following command in your terminal:
 
-```sudo nmap -sP 192.168.1.0/24```
+```nmap -sP 192.168.1.0/24```
 
 📸 Screenshot 2: Shows all live hosts on the network
 ![Screenshot showing Nmap scan results](nmap-scan-results.png)
