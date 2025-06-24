@@ -75,8 +75,10 @@ Now that you’ve discovered which devices are online, the next step is to learn
 Run the following command:
 
 ```
-sudo nmap -sV -O -T4 192.168.1.0/24
+nmap -sV -O -T4 192.168.1.0/24
 ```
+📸 Screenshot 3: Displays open ports and running services on active hosts
+![Screenshot showing Nmap scan results](nmap-port-scan.png)
 
 🔎 Explanation:
 
