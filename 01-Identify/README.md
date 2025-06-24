@@ -30,11 +30,13 @@ This lab demonstrates how to use **Nmap** to identify assets and services on a l
 Run:
 
 ```bash
-ip a
+ifconfig | grep inet
+```
+📸 Screenshot 1: Shows the local IP address 10.0.0.22
+![Screenshot showing Nmap scan results](nmap-host-discovery.png)
+
 Look for something like:
 inet 192.168.1.14/24 → This means your subnet is 192.168.1.0/24
-```
-
 
 
 
@@ -44,6 +46,9 @@ Once you know your subnet (e.g., 192.168.1.0/24), the next step is to scan your 
 Run the following command in your terminal:
 
 ```sudo nmap -sP 192.168.1.0/24```
+
+📸 Screenshot 2: Shows all live hosts on the network
+![Screenshot showing Nmap scan results](nmap-scan-results.png)
 
 #### 🔎 Explanation:
 - sudo – Runs the command with administrative privileges (required for certain network scans)
