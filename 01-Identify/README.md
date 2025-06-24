@@ -33,6 +33,7 @@ Run:
 ifconfig | grep inet
 ```
 📸 Screenshot 1: Shows the local IP address 10.0.0.22
+
 ![Screenshot showing Nmap scan results](nmap-host-discovery.png)
 
 Look for something like:
