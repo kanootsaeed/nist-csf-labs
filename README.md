@@ -37,7 +37,6 @@ Includes:
 ## 📁 Repository Structure
 
 ```
-/
 ├── 01-Identify/              → Nmap asset inventory lab
 ├── 02-risk-register-lab/    → Risk register documentation, visuals, Excel
 ├── README.md                 → Overview of completed labs
