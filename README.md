@@ -13,6 +13,16 @@ These labs are designed to:
 - Highlight governance, risk management, and threat detection capabilities
 
 ---
+## 👤 About Me
+
+I'm a cybersecurity enthusiast with a strong interest in **Governance, Risk, and Compliance (GRC)**. After completing the **Security+ certification**, I began building this lab portfolio to demonstrate my ability to apply the **NIST Cybersecurity Framework (CSF)** in practical scenarios.
+
+My work emphasizes:
+- Risk-based thinking
+- Clear documentation
+- Hands-on use of tools like Nmap, Excel, Python, and GitHub
+
+I'm currently seeking entry-level opportunities in **GRC**, **risk analysis**, or **cybersecurity compliance** roles.
 
 ## ✅ Completed Labs
 
