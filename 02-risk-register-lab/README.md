@@ -12,11 +12,16 @@ The risk register documents potential cybersecurity risks, assigns values for **
 
 ### 🔒 Sample Risk Entries
 
-| Risk ID | Description               | Likelihood | Impact | Risk Score (L×I) | Mitigation Strategy                       |
-|---------|---------------------------|------------|--------|------------------|-------------------------------------------|
-| R-001   | Unpatched software        | Medium     | High   | 9                | Implement monthly patching policy         |
-| R-002   | Weak access controls      | High       | High   | 12               | Enforce multi-factor authentication (MFA) |
-| R-003   | Phishing email threats    | High       | Medium | 9                | Security awareness training for employees |
+| Risk ID | Description                    | Likelihood | Impact | Risk Score (L×I) | Mitigation Strategy                              |
+|---------|--------------------------------|------------|--------|------------------|--------------------------------------------------|
+| R-001   | Unpatched software             | Medium     | High   | 9                | Implement monthly patching policy               |
+| R-002   | Weak access controls           | High       | High   | 12               | Enforce multi-factor authentication (MFA)       |
+| R-003   | Phishing email threats         | High       | Medium | 9                | Security awareness training for employees       |
+| R-004   | Lack of employee security training | Medium | Medium | 6                | Conduct quarterly security training              |
+| R-005   | Outdated antivirus definitions | High       | Medium | 9                | Enable automatic antivirus updates               |
+| R-006   | Unauthorized USB device usage  | High       | High   | 12               | Restrict USB ports and use endpoint controls     |
+| R-007   | Insecure cloud storage permissions | Medium | High   | 9                | Apply least privilege and regular audits         |
+| R-008   | Poor password hygiene          | High       | Medium | 9                | Enforce password manager and strong password policy |
 
 > 💡 Risk scores are based on a 1–5 scale for both Likelihood and Impact (1 = Low, 5 = High).
 
@@ -40,6 +45,9 @@ The risk register documents potential cybersecurity risks, assigns values for **
 
 ## 📂 Files Included
 
-- `risk_register.xlsx` (optional spreadsheet version of the table)
-- `README.md` (project summary and explanation)
+- `risk_register_updated.xlsx` – Spreadsheet version with 8 sample risks
+- `README.md` – Project summary and explanation
+
+---
+
 
