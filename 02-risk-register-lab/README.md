@@ -31,7 +31,7 @@ The risk register documents potential cybersecurity risks, assigns values for **
 
 This scatter plot maps each risk by its Likelihood and Impact:
 
-![Risk Matrix](risk_matrix_visual.png)
+![Risk Matrix](risk_register_updated.xlsx)
 
 ### 🔥 Risk Heatmap (Likelihood vs. Impact)
 
