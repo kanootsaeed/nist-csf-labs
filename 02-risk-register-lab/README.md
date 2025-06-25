@@ -23,14 +23,27 @@ The risk register documents potential cybersecurity risks, assigns values for **
 | R-007   | Insecure cloud storage permissions | Medium | High   | 9                | Apply least privilege and regular audits         |
 | R-008   | Poor password hygiene          | High       | Medium | 9                | Enforce password manager and strong password policy |
 
-> 💡 Risk scores are based on a 1–5 scale for both Likelihood and Impact (1 = Low, 5 = High).
+> 💡 Risk scores are based on a 1–3 scale for both Likelihood and Impact (1 = Low, 3 = High).
 
 ---
+
+### 📊 Risk Matrix Visualization
+
+This scatter plot maps each risk by its Likelihood and Impact:
+
+![Risk Matrix](risk_matrix_visual.png)
+
+### 🔥 Risk Heatmap (Likelihood vs. Impact)
+
+This heatmap shows how risks are distributed based on their likelihood and impact scores:
+
+![Risk Heatmap](risk_matrix_heatmap.png)
 
 ## 🛠️ Tools Used
 
 - **Google Sheets / Excel** – To structure and score the risk register
 - **GitHub** – For documentation and version control
+- **Python (Matplotlib, Seaborn)** – For creating risk matrix and heatmap visualizations
 - **NIST CSF (Identify)** – Framework guiding risk identification
 
 ---
@@ -45,8 +58,10 @@ The risk register documents potential cybersecurity risks, assigns values for **
 
 ## 📂 Files Included
 
-- `risk_register_updated.xlsx` – Spreadsheet version with 8 sample risks
-- `README.md` – Project summary and explanation
+- `README.md` – Full project summary, risk register table, and visuals
+- `risk_register_updated.xlsx` – Excel file with 8 scored and mitigated risks
+- `risk_matrix_visual.png` – Scatter plot mapping each risk by Likelihood and Impact
+- `risk_matrix_heatmap.png` – Color-coded heatmap showing risk concentration
 
 ---
 
