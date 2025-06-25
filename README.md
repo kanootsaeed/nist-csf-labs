@@ -54,13 +54,6 @@ Includes:
 
 ---
 
-## 📫 Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](www.linkedin.com/in/kanootsaeed)  
-[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)](https://github.com/YOUR-GITHUB)
-
----
-
 > _"Security is a process, not a product."_  
 > — Bruce Schneier
 
