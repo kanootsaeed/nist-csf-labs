@@ -1,99 +1,47 @@
 # nist-csf-labs
 # 🔐 NIST Cybersecurity Framework (CSF) Labs & Projects
 
-Welcome! This repository contains a collection of practical, hands-on cybersecurity labs and mini-projects mapped to the **NIST Cybersecurity Framework (CSF) 2.0**. The goal is to simulate real-world scenarios using open-source tools and to document each lab in a clear, repeatable, and informative way.
+This repository showcases a series of hands-on cybersecurity labs aligned with the **NIST Cybersecurity Framework (CSF) 2.0**. Each lab applies real-world scenarios and open-source tools to demonstrate GRC principles in action — with a focus on documentation, risk awareness, and operational security.
 
 ---
 
-## 🎯 Goals
+## 🧠 About the Project
 
-- 📚 **Apply NIST CSF concepts** in real-world cybersecurity environments.
-- ⚙️ **Use industry tools** (Wazuh, Zeek, TheHive, YARA, etc.) across all CSF Functions.
-- 📁 **Create 20+ labs/projects** to showcase in a professional GitHub portfolio.
-- 📄 **Document clearly** using Markdown, diagrams, risk assessments, and logs.
-- 🚀 **Build a roadmap** for cybersecurity learning and job-readiness.
-
----
-
-## 📊 NIST CSF 2.0: Function Breakdown
-
-| Function    | Description                                       | Sample Labs                                      |
-|-------------|---------------------------------------------------|--------------------------------------------------|
-| 🧭 Govern    | Governance, policies, and risk management         | Risk register, policy templates                  |
-| 🧱 Identify  | Understanding assets and risk                     | Asset inventory, threat modeling                 |
-| 🔒 Protect   | Safeguards and access control                     | IAM policy, encryption setup, MFA config         |
-| 👀 Detect    | Monitoring and anomaly detection                  | File integrity monitoring, SIEM alerts           |
-| 🚨 Respond   | Incident handling and mitigation                  | IR playbooks, incident analysis, IOC handling    |
-| 🔁 Recover   | Restoration of systems and learning from incidents| Backup simulation, recovery testing              |
+These labs are designed to:
+- Apply key NIST CSF functions to real-world use cases
+- Build a professional, portfolio-ready GitHub presence
+- Highlight governance, risk management, and threat detection capabilities
 
 ---
 
-## 🧪 Lab Tracker (📌 Work in Progress)
+## ✅ Completed Labs
 
-| Lab Name                               | Function   | Status   |
-|----------------------------------------|------------|----------|
-| Asset Inventory with Nmap              | Identify   | ✅ Done  |
-| Risk Register with Excel/Markdown      | Govern     | ✅ Done  |
-| File Monitoring using Wazuh            | Detect     | 🔄 In Progress |
-| IAM Role-Based Access Control (AWS)    | Protect    | 🕒 Planned |
-| IR Workflow with TheHive               | Respond    | 🕒 Planned |
-| Snapshot Restore Simulation (VM)       | Recover    | 🕒 Planned |
+### 1. 📦 Asset Inventory with Nmap
+**Function:** Identify  
+**Overview:** Used Nmap to discover and document active hosts and services in a test environment. Screenshots and scan results are included to simulate asset inventory processes.  
+🔗 [View Lab Folder](./01-Identify)
 
 ---
 
-## 🛠 Toolset Across Labs
-
-| Category       | Tools Used                                                                 |
-|----------------|---------------------------------------------------------------------------|
-| 📋 Risk & Policy | Excel, Markdown, NIST templates                                           |
-| 🌐 Scanning      | `nmap`, `masscan`, `Shodan`                                               |
-| 🛡 Protection    | `AWS IAM`, `iptables`, `ufw`, `OpenSSL`, MFA tools                        |
-| 🔍 Monitoring    | `Wazuh`, `Zeek`, `Suricata`, `ELK Stack`                                  |
-| ⚠️ Incident Resp | `TheHive`, `Cortex`, `Velociraptor`, `Wireshark`, `YARA`                  |
-| 💾 Recovery      | `Veeam`, `Rsync`, VM snapshots, cloud backups                             |
-| 📄 Docs & Infra  | `Markdown`, `GitHub Pages`, `Draw.io`, `Excel`, `Typora`                  |
+### 2. 🧾 Risk Register with Excel & Markdown
+**Function:** Govern  
+**Overview:** Created a basic risk register aligned with the NIST CSF Identify Function. Risks are scored by likelihood and impact, and visualized using Python-based matrix and heatmap tools.  
+Includes:
+- Excel version of the risk register  
+- Risk matrix scatter plot  
+- Risk heatmap for visual prioritization  
+🔗 [View Lab Folder](./02-risk-register-lab)
 
 ---
 
-### 🧱 Folder Structure 
+## 📁 Repository Structure
 
-```   
-nist-csf-labs/
-├── 01-Identify/
-│   └── asset-inventory-nmap/
-├── 02-Protect/
-├── 03-Detect/
-├── 04-Respond/
-├── 05-Recover/
-├── 06-Govern/
-├── 00-Templates/
-└── 07-Lab-Tracker.md
-``` 
+```plaintext
+/
+├── 01-Identify/              → Nmap asset inventory lab
+├── 02-risk-register-lab/    → Risk register documentation, visuals, Excel
+├── README.md                 → Overview of completed labs
 
-
-
-
-Each lab includes:
-- 📄 A README with context, tools, and step-by-step instructions  
-- 📸 Screenshots of configuration or results  
-- 📁 Logs, configs, and outputs (when possible)  
-- ✅ CSF subcategory mapping and lessons learned
-
----
-
-## 💬 Contributing & Feedback
-
-This repository is part of my personal journey to learn and demonstrate hands-on cybersecurity skills aligned with the NIST Cybersecurity Framework (CSF) 2.0.  
-If you have suggestions, lab ideas, or feedback — feel free to [open an issue](https://github.com/yourusername/nist-csf-labs/issues) or fork the repo!
-
----
-
-## 📅 Roadmap
-
-- [ ] ✅ Complete 10 Labs by **August 15, 2025**
-- [ ] 🌐 Publish lab site using **GitHub Pages**
-- [ ] 📝 Write blog-style breakdowns of 3 key labs
-- [ ] 📊 Convert risk register into an **interactive dashboard**
 
 ---
 
