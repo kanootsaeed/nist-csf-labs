@@ -19,12 +19,11 @@ This lab focuses on classifying organizational assets based on their criticality
 3. **Classification Assignment:** Mapped each asset to a classification level (e.g., High, Medium, Low).
 4. **Business Impact Mapping:** Documented notes on how each asset contributes to organizational operations.
 
-## 📸 Screenshot
+## 📸 
 _A preview of the classification matrix:_
 
-![Asset Classification Screenshot](./classification-screenshot.png)
+![Asset Classification Screenshot](asset-classification-matrix.png)
 
-(Replace the above line with the actual filename of your screenshot once uploaded.)
 
 ## 🧠 Key Takeaways
 - Classification enables effective prioritization of cybersecurity controls.
